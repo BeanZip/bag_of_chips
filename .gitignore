@@ -1,0 +1,67 @@
+# Build outputs
+build/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+release/
+
+# xmake specific
+.xmake/
+compile_commands.json
+
+# IDE specific files
+.vs/
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# Batch and PowerShell scripts (keeping build scripts)
+*.bat
+*.ps1
+!release.bat
+!release.ps1
+!rename_project.bat
+!rename_project.ps1
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Documentation generated files
+docs/html/
+docs/latex/
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Dependencies
+/vendor/
+/packages/
+
+# Temporary files
+/temp/
+/tmp/
+*.log
+*.tmp
+
+# But keep ROM files
+!roms/*.ch8
